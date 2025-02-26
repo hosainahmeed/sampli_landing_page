@@ -6,7 +6,7 @@ import { Button } from "@/components/ui/button";
 
 function LandingPage() {
   return (
-    <div className=" px-2 ellipse-shadow flex items-center justify-center flex-col gap-6">
+    <div className=" px-2 pt-12 md:pt-28 ellipse-shadow flex items-center justify-center flex-col gap-6">
       <div className="area-md text-center">
         <h1 className="text-2xl text-big-black mb-6 font-bold leading-none">
           Turn Product Reviews into <span>Powerful Sales Drivers</span>

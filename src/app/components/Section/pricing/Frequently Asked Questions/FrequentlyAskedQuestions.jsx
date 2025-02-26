@@ -40,7 +40,7 @@ function FrequentlyAskedQuestions() {
     },
   ];
   return (
-    <div className="flex items-start lg:flex-row flex-col px-4 py-28 justify-between gap-12">
+    <div className="flex items-start lg:flex-row flex-col px-4 py-4 justify-between gap-12">
       <div className="flex-1">
         <h6>FAQ</h6>
         <h1 className="text-4xl font-bold">Commonly asked questions</h1>
