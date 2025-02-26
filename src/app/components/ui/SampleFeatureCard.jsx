@@ -1,7 +1,8 @@
 import Image from 'next/image';
 import React from 'react';
 
-function SampleFeatureCard({item,index}) {
+function SampleFeatureCard(item) {
+  console.log(item?.index)
   return (
     <div
       className={`${
