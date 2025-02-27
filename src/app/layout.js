@@ -27,7 +27,7 @@ export default function RootLayout({ children }) {
       >
         <NextTopLoader />
         <HeaderSection />
-        <div className="area-xl">{children}</div>
+        <div>{children}</div>
         <FooterSection />
       </body>
     </html>

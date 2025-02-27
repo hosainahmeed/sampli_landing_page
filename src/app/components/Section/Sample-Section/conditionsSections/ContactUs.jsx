@@ -1,3 +1,4 @@
+'use client';
 import React from 'react';
 import { Form, Input, Button } from 'antd';
 import {
@@ -19,11 +20,10 @@ const ContactUs = () => {
   };
 
   return (
-    <div className="responsive-width h-screen !mt-5">
-      <div className="text-2xl font-bold mb-5">Contact Us</div>
+    <div className="responsive-width pb-12 px-2 !mt-5">
       <div className="flex flex-col md:flex-row justify-between items-center md:items-start ">
         <div className="w-full md:w-1/2 ">
-          <h2 className="text-lg font-semibold mb-4 text-gray-700">
+          <h2 className="text-lg font-normal mb-4 text-gray-700">
             Get in touch
           </h2>
           <div className="space-y-3">
@@ -91,6 +91,7 @@ const ContactUs = () => {
             </Form.Item>
           </Form>
         </div>
+        
       </div>
     </div>
   );
