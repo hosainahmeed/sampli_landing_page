@@ -1,8 +1,8 @@
-import React from "react";
+import React from 'react';
 
 function SectionHeader({
-  tag = "Made for you",
-  title = "Powerful Features Built for Business",
+  tag,
+  title = 'Powerful Features Built for Business',
   subTitle = "Sampli provides a comprehensive suite of tools to help you understand your product's true market potential.",
 }) {
   return (

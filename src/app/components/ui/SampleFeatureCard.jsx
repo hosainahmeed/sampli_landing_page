@@ -7,8 +7,8 @@ function SampleFeatureCard(item) {
     <div
       className={`${
         item?.spacing
-          ? 'relative'
-          : 'relative h-full shadow-lg flex md:border-none border-2 rounded-3xl items-start justify-between flex-col'
+          ? 'relative h-full'
+          : 'relative h-full shadow-lg overflow-hidden flex md:border-none border-2 rounded-3xl items-start justify-between flex-col'
       }`}
     >
       <div className="gradient-ellipse z-[-1]"></div>
@@ -21,7 +21,7 @@ function SampleFeatureCard(item) {
           alt="sampli"
         />
       )}
-      <div className="p-6">
+      <div className="p-6  justify-end h-full items-start flex flex-col">
         <h1 className="text-[#FD8240] text-2xl md:text-3xl font-semibold">
           {item?.title}
         </h1>

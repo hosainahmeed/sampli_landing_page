@@ -5,18 +5,18 @@ import { Button } from 'antd';
 
 function SampleBanner() {
   return (
-    <div className="flex flex-col md:flex-row items-center justify-between px-2 py-10 gap-10 md:gap-16">
+    <div className="flex flex-col md:flex-row items-center justify-between px-2 pt-12  gap-10 md:gap-16">
       {/* Text Content */}
-      <div className="flex-1 flex flex-col items-start gap-6 text-left">
-        <h1 className="text-3xl sm:text-4xl md:text-5xl font-semibold leading-tight">
+      <div className="flex-1 flex flex-col items-center md:items-start gap-6 text-left">
+        <h1 className="text-3xl sm:text-4xl text-center md:text-start md:text-5xl font-semibold leading-tight">
           Get Paid to Review Products You Love
         </h1>
-        <p className="text-base sm:text-lg text-gray-600">
+        <p className="text-base text-center md:text-start sm:text-lg text-gray-600">
           Join Sampli and become part of an exclusive community of product
           reviewers. Receive free products, create engaging video reviews, and
           earn money while sharing your authentic experiences.
         </p>
-        <Button type="primary" className="px-6 py-6 text-lg w-full md:w-auto">
+        <Button type="primary" className="px-6  py-6 text-lg w-fit md:w-auto">
           Start Earning Today
         </Button>
       </div>

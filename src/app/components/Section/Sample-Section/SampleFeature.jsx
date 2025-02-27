@@ -3,6 +3,7 @@ import featureImage1 from '../../../Assets/sample-Image/feature2.png';
 import featureImage2 from '../../../Assets/sample-Image/feature3.svg';
 import featureImage3 from '../../../Assets/sample-Image/feature4.png';
 import SampleFeatureCard from '../../ui/SampleFeatureCard';
+import SectionHeader from '../../shared/SectionHeader';
 
 function SampleFeature() {
   const featuresData = [
@@ -35,12 +36,19 @@ function SampleFeature() {
   ];
 
   return (
-    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-6 px-4 sm:px-6 lg:px-12">
-      {featuresData.map((feature, index) => (
-        <div key={index} className="w-full">
-          <SampleFeatureCard index={index} {...feature} />
-        </div>
-      ))}
+    <div>
+      <SectionHeader
+        tag="Features"
+        title="Your Path to Product Paradise"
+        subTitle="Get paid to sample products you’ve always wanted to try. Just claim an offer, fill in your address, and we’ll send it to you for free"
+      />
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-6 px-4 sm:px-6 lg:px-12">
+        {featuresData.map((feature, index) => (
+          <div key={index} className="w-full">
+            <SampleFeatureCard index={index} {...feature} />
+          </div>
+        ))}
+      </div>
     </div>
   );
 }
