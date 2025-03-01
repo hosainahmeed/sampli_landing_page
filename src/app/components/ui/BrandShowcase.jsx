@@ -11,7 +11,7 @@ const images = [threeM, abbott, dealmed, dukal, wel, dynarex];
 
 function BrandShowcase() {
   return (
-    <div className="flex items-center justify-between w-full">
+    <div className="flex items-center px-2 justify-between w-full">
       {images.map((image, index) => (
         <Image
           key={index}
