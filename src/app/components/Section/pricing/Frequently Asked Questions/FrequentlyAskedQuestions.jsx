@@ -51,7 +51,8 @@ function FrequentlyAskedQuestions() {
       </div>
       <div className="!w-full lg:flex-1">
         <Collapse
-        className='!bg-[#f8f8f8]'
+          accordion
+          className="!bg-[#f8f8f8]"
           style={{ width: '100%' }}
           items={items}
           bordered={false}
