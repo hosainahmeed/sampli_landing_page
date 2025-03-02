@@ -8,6 +8,7 @@ import 'swiper/css/navigation';
 import { Card, CardContent, CardFooter } from '@/components/ui/card';
 import './styles.css';
 import SectionHeader from '../../shared/SectionHeader';
+import { GlowingEffect } from '@/components/ui/glowing-effect';
 const testimonials = [
   {
     id: 1,
@@ -105,6 +106,13 @@ function TestimonialCarousel() {
         {testimonials.map((testimonial) => (
           <SwiperSlide key={testimonial.id}>
             <Card className="w-full p-4 backdrop-blur-2xl bg-transparent transition-shadow duration-300">
+            <GlowingEffect
+                    spread={40}
+                    glow={true}
+                    disabled={false}
+                    proximity={64}
+                    inactiveZone={0.05}
+                  />
               <CardContent>
                 <p className="text-base  text-gray-700">
                   {testimonial.content.slice(0, 200) || 0}

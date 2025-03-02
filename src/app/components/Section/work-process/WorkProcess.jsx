@@ -33,6 +33,7 @@ function WorkProcess() {
         title="How Sampli Works"
         subTitle="Experience a seamless journey from campaign creation to insight gathering with Sampli!"
       />
+
       <div className="px-3 grid grid-cols-1 md:grid-cols-3 gap-6">
         {datas.map((item, idx) => (
           <Card item={item} key={idx} />

@@ -2,7 +2,7 @@ import Image from 'next/image';
 import React from 'react';
 
 function SampleFeatureCard(item) {
-  console.log(item?.index)
+  console.log(item?.index);
   return (
     <div
       className={`${
