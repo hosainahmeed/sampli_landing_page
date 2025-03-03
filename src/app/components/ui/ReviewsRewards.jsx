@@ -42,6 +42,7 @@ function ReviewsRewards() {
         </div>
         <div className="flex-1 flex justify-center">
           <Image
+          placeholder='blur'
             src={sampleBannerImage}
             width={500}
             height={500}

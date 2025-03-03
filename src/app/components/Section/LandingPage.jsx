@@ -37,6 +37,8 @@ function LandingPage() {
           placeholder="blur"
           className="h-full rounded-3xl object-contain md:object-cover object-top"
           src={heroImage}
+          loading='lazy'
+          // blurDataURL={heroImage}
           width={1000}
           height={586}
           alt="sampli"

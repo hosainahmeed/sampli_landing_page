@@ -14,6 +14,8 @@ function BrandShowcase() {
     <div className="flex items-center px-2 justify-between w-full">
       {images.map((image, index) => (
         <Image
+        placeholder='blur'
+        blurDataURL='data:...'
           key={index}
           src={image}
           width={100}
