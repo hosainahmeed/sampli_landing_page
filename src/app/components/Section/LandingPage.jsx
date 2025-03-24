@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
-import heroImage from '../../../../public/hero.png';
+import heroImage from '@/../public/hero.png';
 import { Spotlight } from '@/components/ui/Spotlight';
 import { Button } from '@/components/ui/button';
 
@@ -9,7 +9,8 @@ function LandingPage() {
     <div className=" px-2 pt-12 md:pt-28 ellipse-shadow flex items-center justify-center flex-col gap-6">
       <div className="area-md text-center">
         <h1 className="text-2xl text-big-black mb-6 font-bold leading-none">
-          Turn Product Reviews into <span>Powerful Sales Drivers</span>
+          Turn Product Reviews into{' '}
+          <span className="text-[#2E78E9]">Powerful Sales Drivers</span>
         </h1>
         <p className="text-xs mt-2 md:text-xl">
           Connect with genuine reviewers, get authentic video reviews, and boost
@@ -37,7 +38,7 @@ function LandingPage() {
           placeholder="blur"
           className="h-full rounded-3xl object-contain md:object-cover object-top"
           src={heroImage}
-          loading='lazy'
+          loading="lazy"
           // blurDataURL={heroImage}
           width={1000}
           height={586}

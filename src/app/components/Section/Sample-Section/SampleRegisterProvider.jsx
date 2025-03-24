@@ -19,7 +19,7 @@ function SampleRegisterProvider() {
       {/* Button Section */}
       <div className="flex justify-center md:justify-end w-full md:w-auto">
         <Button
-          className="px-6 py-4 text-lg md:text-xl font-semibold rounded-lg transition-all duration-300 hover:scale-105"
+          className="px-6 py-6 text-lg md:text-xl  rounded-lg transition-all duration-300 hover:scale-105"
           type="primary"
         >
           Get Started Now

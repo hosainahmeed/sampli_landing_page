@@ -9,16 +9,17 @@ function SampleFeature() {
   const featuresData = [
     {
       image: featureImage1,
-      title: 'Targeted Campaigns',
-      description: 'Precision targeting for your ideal customer demographic',
+      title: 'Discover Your Niche',
+      description:
+        'From beauty must-haves to tech treasures, hand-pick campaigns that speak to your expertise and spark your curiosity.',
       style: 'w-full object-contain h-64 p-4',
     },
     {
       image: featureImage2,
-      title: 'Verified Reviewers',
-      style: 'w-full object-contain h-64 p-4',
+      title: 'Unbox Joy',
+      style: 'w-full object-contain h-64 p-4 ',
       description:
-        'Authentic feedback from a curated network of product testers',
+        'Experience the thrill of receiving premium products at your doorstep. Each package is a new adventure waiting to be shared',
     },
     {
       spacing: true,
@@ -28,10 +29,7 @@ function SampleFeature() {
     },
     {
       image: featureImage3,
-      title: 'E-commerce Integration',
       style: 'w-full object-cover object-bottom h-72 ',
-      description:
-        'Seamless Shopify and marketplace integrations to expand your reach',
     },
   ];
 
@@ -41,6 +39,7 @@ function SampleFeature() {
         tag="Features"
         title="Your Path to Product Paradise"
         subTitle="Get paid to sample products you’ve always wanted to try. Just claim an offer, fill in your address, and we’ll send it to you for free"
+        color={'text-[#fd945c]'}
       />
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-6 px-4 sm:px-6 lg:px-12">
         {featuresData.map((feature, index) => (

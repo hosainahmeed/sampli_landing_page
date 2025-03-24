@@ -7,8 +7,9 @@ import FrequentlyAskedQuestions from '../components/Section/pricing/Frequently A
 import RegisterReffer from '../components/Section/RegisterReffer/RegisterReffer';
 import Features from '../components/Section/features/Features';
 import BrandShowcase from '../components/ui/BrandShowcase';
+import { Spin } from 'antd';
 const LandingPage = dynamic(() => import('../components/Section/LandingPage'), {
-  loading: () => <p>Loading...</p>,
+  loading: () => <Spin size="large" />,
 });
 
 function Page() {

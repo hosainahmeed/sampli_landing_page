@@ -32,6 +32,7 @@ function WorkProcess() {
         tag="MADE FOR YOU"
         title="How Sampli Works"
         subTitle="Experience a seamless journey from campaign creation to insight gathering with Sampli!"
+        color="text-[#FD945C]"
       />
 
       <div className="px-3 grid grid-cols-1 md:grid-cols-3 gap-6">

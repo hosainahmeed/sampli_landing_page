@@ -6,7 +6,7 @@ import React from 'react';
 function page() {
   return (
     <div>
-      <PageHeader title={'About Us'} subTitle={'We’ll love to hear from you'} />
+      <PageHeader title={'Contact Us'} subTitle={'We’ll love to hear from you'} />
       <div className='area-xl'>
         <ContactUs />
         <RegisterReffer />
