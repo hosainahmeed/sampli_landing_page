@@ -16,10 +16,10 @@ function SectionHeader({
         </h6>
       )}
       {title && (
-        <h1 className={`capitalize text-4xl font-semibold`}>{title}</h1>
+        <h1 className={`capitalize md:text-3xl text-2xl xl:text-4xl font-semibold`}>{title}</h1>
       )}
       {subTitle && (
-        <p className="text-[18px] text-[var(--text-gray-100)]">{subTitle}</p>
+        <p className="text-sm md:text-[18px] text-[var(--text-gray-100)]">{subTitle}</p>
       )}
     </div>
   );

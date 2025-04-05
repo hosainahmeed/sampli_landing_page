@@ -105,7 +105,7 @@ function TestimonialCarousel() {
       >
         {testimonials.map((testimonial) => (
           <SwiperSlide key={testimonial.id}>
-            <Card className="w-full p-4 backdrop-blur-2xl bg-transparent transition-shadow duration-300">
+            <Card className="w-full p-4 backdrop-blur-2xl bg-white transition-shadow duration-300">
             <GlowingEffect
                     spread={40}
                     glow={true}

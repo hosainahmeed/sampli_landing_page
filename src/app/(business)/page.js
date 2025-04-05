@@ -14,7 +14,7 @@ const LandingPage = dynamic(() => import('../components/Section/LandingPage'), {
 
 function Page() {
   return (
-    <div className="flex  items-center flex-col area-xl gap-24">
+    <div className="flex  items-center flex-col area-xl xl:gap-24 md:gap-16 gap-8">
       <div className="heroPatarns">
         <LandingPage />
       </div>

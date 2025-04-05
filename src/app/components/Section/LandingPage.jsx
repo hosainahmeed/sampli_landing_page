@@ -31,7 +31,7 @@ function LandingPage() {
         fill="blue"
       />
 
-      <div className="px-2 relative  h-[500px] md:h-[586px] overflow-hidden p-2 border-b-transparent border-b-0 rounded-bl-none rounded-br-none md:border-[1px] border-white rounded-3xl">
+      <div className="px-2 relative  h-[600px] md:h-[586px] overflow-hidden p-2 border-b-transparent border-b-0 rounded-bl-none rounded-br-none md:border-[1px] border-white rounded-3xl">
         <div className="absolute bottom-0 w-full h-2/4 md:h-1/4 bg-gradient-to-t to-transparent via-white/90 from-[#F8F8F8] left-0"></div>
 
         <Image

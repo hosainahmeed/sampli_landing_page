@@ -89,17 +89,19 @@ function HeaderSection() {
       // className={`sticky top-0 z-50 w-full py-4 px-6 transition-all duration-300 ${
       //   scrolled ? 'bg-[#f8f8f8]' : 'bg-transparent'
       // }`}
-      className='px-2'
+      className="px-2"
     >
       <div className="area-xl  mx-auto flex justify-between items-center">
         {/* Logo */}
-        <motion.div
-          className="flex-shrink-0"
-          whileHover={{ scale: 1.05 }}
-          whileTap={{ scale: 0.95 }}
-        >
-          <LogoIcon />
-        </motion.div>
+        <Link href="/" className="flex items-center">
+          <motion.div
+            className="flex-shrink-0"
+            whileHover={{ scale: 1.05 }}
+            whileTap={{ scale: 0.95 }}
+          >
+            <LogoIcon />
+          </motion.div>
+        </Link>
 
         {/* Desktop Navigation */}
         <div className="hidden md:flex items-center space-x-8">
