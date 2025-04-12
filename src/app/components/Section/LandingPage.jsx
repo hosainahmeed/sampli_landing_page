@@ -3,6 +3,7 @@ import Image from 'next/image';
 import heroImage from '@/../public/hero.png';
 import { Spotlight } from '@/components/ui/Spotlight';
 import { Button } from '@/components/ui/button';
+import Link from 'next/link';
 
 function LandingPage() {
   return (
@@ -18,9 +19,11 @@ function LandingPage() {
         </p>
       </div>
       <div className="flex flex-col items-center text-center">
-        <Button className="bg-[#2E78E9] hover:bg-[#2E78E9] px-[14px] py-[24px] md:text-[18px]">
-          Launch your campaign
-        </Button>
+        <Link href={'https://rad-treacle-994f4a.netlify.app/choose-role'}>
+          <Button className="bg-[#2E78E9] hover:bg-[#2E78E9] px-[14px] py-[24px] md:text-[18px]">
+            Launch your campaign
+          </Button>
+        </Link>
         <small className="text-xs md:text-base mt-3">
            No credit card required
         </small>

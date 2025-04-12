@@ -1,6 +1,7 @@
 'use client';
 import { Button } from '@/components/ui/button';
 import { Card, Typography } from 'antd';
+import Link from 'next/link';
 import React from 'react';
 
 const { Title, Text } = Typography;
@@ -19,9 +20,11 @@ function RegisterReffer() {
             insights, and boost your sales—all in one place.
           </Text>
         </div>
-        <Button className="bg-white text-[#2E78E9] px-6 py-3 text-sm sm:text-base md:text-lg rounded-lg font-medium">
-          Register Now
-        </Button>
+        <Link href={'https://rad-treacle-994f4a.netlify.app/choose-role'}>
+          <Button className="bg-white text-[#2E78E9] px-6 py-3 text-sm sm:text-base md:text-lg rounded-lg font-medium">
+            Register Now
+          </Button>
+        </Link>
       </div>
     </Card>
   );

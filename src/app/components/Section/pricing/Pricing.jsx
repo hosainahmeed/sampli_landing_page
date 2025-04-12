@@ -33,15 +33,20 @@ function Pricing() {
           </h1>
           <ul className="text-gray-600 space-y-2">
             {pricingData.map((item, idx) => (
-              <li key={idx} className="flex items-center gap-2 text-sm md:text-xl ml-2">
+              <li
+                key={idx}
+                className="flex items-center gap-2 text-sm md:text-xl ml-2"
+              >
                 <Image width={15} height={15} src={elips} alt="icons" />{' '}
                 {item?.pricing}
               </li>
             ))}
           </ul>
-          <Button className="!border-blue-600  !px-6 md:!text-2xl !mt-8 !py-2 !text-blue-600 !hover:bg-blue-600 hover:!text-white hover:!bg-blue-600 !transition-all !border-2 !bg-transparent !rounded-lg">
-            Get Started
-          </Button>
+          <Link href={'https://rad-treacle-994f4a.netlify.app/choose-role'}>
+            <Button className="!border-blue-600  !px-6 md:!text-2xl !mt-8 !py-2 !text-blue-600 !hover:bg-blue-600 hover:!text-white hover:!bg-blue-600 !transition-all !border-2 !bg-transparent !rounded-lg">
+              Get Started
+            </Button>
+          </Link>
         </div>
 
         {/* Enterprise Solutions */}
@@ -52,7 +57,7 @@ function Pricing() {
           <p className="text-gray-700 mt-2">
             Need a custom solution for your business?
           </p>
-          <Link href="/contact-us">
+          <Link href="/contact">
             <Button className="mt-4 px-6 py-2  bg-blue-600 text-white rounded-lg hover:bg-blue-700">
               Contact Us
             </Button>

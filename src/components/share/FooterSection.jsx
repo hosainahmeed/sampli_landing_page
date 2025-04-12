@@ -29,7 +29,7 @@ const { Text, Title, Paragraph } = Typography;
 // Link data for dynamic rendering
 const companyLinks = [
   { href: '/for-samplers', text: 'For Samplers' },
-  { href: '/for-business', text: 'For Business owners' },
+  { href: '/', text: 'For Business owners' },
   { href: '/about', text: 'About us' },
 ];
 

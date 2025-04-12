@@ -22,8 +22,8 @@ function HeaderSection() {
       pathName: '/for-samplers',
     },
     {
-      title: 'About Us',
-      pathName: '/about-us',
+      title: 'Contact',
+      pathName: '/contact',
     },
   ];
 
@@ -129,10 +129,14 @@ function HeaderSection() {
         {/* Auth Buttons */}
         <div className="hidden md:flex items-center gap-3">
           <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
-            <Button>Login</Button>
+            <Link href={'https://rad-treacle-994f4a.netlify.app/login'}>
+              <Button>Login</Button>
+            </Link>
           </motion.div>
           <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
-            <Button type="primary">Sign Up</Button>
+            <Link href={'https://rad-treacle-994f4a.netlify.app/choose-role'}>
+              <Button type="primary">Sign Up</Button>
+            </Link>
           </motion.div>
         </div>
 
@@ -191,14 +195,26 @@ function HeaderSection() {
                   variants={menuItemVariants}
                 >
                   <motion.div whileTap={{ scale: 0.95 }}>
-                    <Button block size="large">
-                      Login
-                    </Button>
+                    <Link
+                      href={
+                        'https://rad-treacle-994f4a.netlify.app/choose-role'
+                      }
+                    >
+                      <Button block size="large">
+                        Login
+                      </Button>
+                    </Link>
                   </motion.div>
                   <motion.div whileTap={{ scale: 0.95 }}>
-                    <Button block type="primary" size="large">
-                      Sign Up
-                    </Button>
+                    <Link
+                      href={
+                        'https://rad-treacle-994f4a.netlify.app/choose-role'
+                      }
+                    >
+                      <Button block type="primary" size="large">
+                        Sign Up
+                      </Button>
+                    </Link>
                   </motion.div>
                 </motion.div>
               </div>
