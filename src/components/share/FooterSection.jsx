@@ -147,9 +147,7 @@ const FooterSection = () => {
         <div style={{ marginBottom: '32px' }}>
           <LogoIcon />
           <Paragraph className='max-w-2xl' style={{ color: '#c7c7c7', marginBottom: '24px' }}>
-            Customers in Lagos, Abuja, Ibadan, Warri, Benin, Abeokuta, Akure and
-            Portharcourt enjoy free delivery on items with the free delivery
-            tag. Free delivery does not apply to large items like refrigerators,
+            Customers in US and Canada enjoy free delivery on items with the free delivery tag. Free delivery does not apply to large items like refrigerators,
             huge TVs, washing machines and others.
           </Paragraph>
         </div>
