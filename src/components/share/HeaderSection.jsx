@@ -129,12 +129,12 @@ function HeaderSection() {
         {/* Auth Buttons */}
         <div className="hidden md:flex items-center gap-3">
           <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
-            <Link href={'https://rad-treacle-994f4a.netlify.app/login'}>
+            <Link href={'http://dashboard.sampli.io/login'}>
               <Button>Login</Button>
             </Link>
           </motion.div>
           <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
-            <Link href={'https://rad-treacle-994f4a.netlify.app/choose-role'}>
+            <Link href={'http://dashboard.sampli.io/choose-role'}>
               <Button type="primary">Sign Up</Button>
             </Link>
           </motion.div>
