@@ -197,7 +197,7 @@ function HeaderSection() {
                   <motion.div whileTap={{ scale: 0.95 }}>
                     <Link
                       href={
-                        'https://rad-treacle-994f4a.netlify.app/choose-role'
+                        'https://dashboard.sampli.io/choose-role'
                       }
                     >
                       <Button block size="large">
@@ -208,7 +208,7 @@ function HeaderSection() {
                   <motion.div whileTap={{ scale: 0.95 }}>
                     <Link
                       href={
-                        'https://rad-treacle-994f4a.netlify.app/choose-role'
+                        'https://dashboard.sampli.io/choose-role'
                       }
                     >
                       <Button block type="primary" size="large">

@@ -19,7 +19,7 @@ function SampleRegisterProvider() {
 
       {/* Button Section */}
       <div className="flex justify-center md:justify-end w-full md:w-auto">
-        <Link href={'https://rad-treacle-994f4a.netlify.app/choose-role'}>
+        <Link href={'https://dashboard.sampli.io/choose-role'}>
           <Button
             className="px-6 py-6 text-lg md:text-xl  rounded-lg transition-all duration-300 hover:scale-105"
             type="primary"

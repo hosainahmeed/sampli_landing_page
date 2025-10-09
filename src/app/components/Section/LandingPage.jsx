@@ -19,7 +19,7 @@ function LandingPage() {
         </p>
       </div>
       <div className="flex flex-col items-center text-center">
-        <Link href={'https://rad-treacle-994f4a.netlify.app/choose-role'}>
+        <Link href={'https://dashboard.sampli.io/choose-role'}>
           <Button className="bg-[#2E78E9] hover:bg-[#2E78E9] px-[14px] py-[24px] md:text-[18px]">
             Launch your campaign
           </Button>

@@ -20,7 +20,7 @@ function RegisterReffer() {
             insights, and boost your sales—all in one place.
           </Text>
         </div>
-        <Link href={'https://rad-treacle-994f4a.netlify.app/choose-role'}>
+        <Link href={'https://dashboard.sampli.io/choose-role'}>
           <Button className="bg-white text-[#2E78E9] px-6 py-3 text-sm sm:text-base md:text-lg rounded-lg font-medium">
             Register Now
           </Button>

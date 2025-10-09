@@ -42,7 +42,7 @@ function Pricing() {
               </li>
             ))}
           </ul>
-          <Link href={'https://rad-treacle-994f4a.netlify.app/choose-role'}>
+          <Link href={'https://dashboard.sampli.io/choose-role'}>
             <Button className="!border-blue-600  !px-6 md:!text-2xl !mt-8 !py-2 !text-blue-600 !hover:bg-blue-600 hover:!text-white hover:!bg-blue-600 !transition-all !border-2 !bg-transparent !rounded-lg">
               Get Started
             </Button>
