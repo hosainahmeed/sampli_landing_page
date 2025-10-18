@@ -1,7 +1,8 @@
-import React from 'react';
-import sampleBannerImage from '../../../Assets/sample-Image/freature1.svg';
-import Image from 'next/image';
-import { Button } from 'antd';
+import React from "react";
+import sampleBannerImage from "../../../Assets/sample-Image/freature1.svg";
+import Image from "next/image";
+import { Button } from "antd";
+import Link from "next/link";
 
 function SampleBanner() {
   return (
@@ -16,9 +17,11 @@ function SampleBanner() {
           reviewers. Receive free products, create engaging video reviews, and
           earn money while sharing your authentic experiences.
         </p>
-        <Button type="primary" className="px-6  py-6 text-lg w-fit md:w-auto">
-          Start Earning Today
-        </Button>
+        <Link href={'https://dashboard.sampli.io/choose-role'}>
+          <Button type="primary" className="px-6  py-6 text-lg w-fit md:w-auto">
+            Start Earning Today
+          </Button>
+        </Link>
       </div>
 
       {/* Image Section */}
