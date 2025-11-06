@@ -18,10 +18,10 @@ function Page() {
       <div className="heroPatarns">
         <LandingPage />
       </div>
-      <BrandShowcase />
+      {/* <BrandShowcase /> */}
       <Features />
       <WorkProcess />
-      <TestimonialCarousel />
+      {/* <TestimonialCarousel /> */}
       <Pricing />
       <FrequentlyAskedQuestions />
       <RegisterReffer />

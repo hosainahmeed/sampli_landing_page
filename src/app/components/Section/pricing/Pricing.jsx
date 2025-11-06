@@ -7,13 +7,13 @@ import Link from 'next/link';
 function Pricing() {
   const pricingData = [
     {
-      pricing: 'Image Review: $15 per review',
+      pricing: 'Image Review: $5 per review',
     },
     {
-      pricing: 'Video Review: $30 per review',
+      pricing: 'Video Review: $10 per review',
     },
     {
-      pricing: 'Platform Fee: 15% of total',
+      pricing: 'Platform Fee: 15% Platform Fee',
     },
   ];
 
