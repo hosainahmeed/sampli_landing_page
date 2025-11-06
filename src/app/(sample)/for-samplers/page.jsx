@@ -12,7 +12,7 @@ function page() {
   return (
     <div className="flex px-2 area-xl items-center justify-center flex-col gap-24">
       <SampleBanner />
-      <BrandShowcase />
+      {/* <BrandShowcase /> */}
       <SampleFeature />
       <ReviewsRewards />
       <InfluenceSection />
