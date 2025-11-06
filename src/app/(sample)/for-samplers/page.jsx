@@ -16,7 +16,7 @@ function page() {
       <SampleFeature />
       <ReviewsRewards />
       <InfluenceSection />
-      <TestimonialCarousel />
+      {/* <TestimonialCarousel /> */}
       <FrequentlyAskedQuestions />
       <SampleRegisterProvider />
     </div>
