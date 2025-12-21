@@ -63,7 +63,7 @@ const contactInfo = [
 const footerLinks = [
   { href: '/privacy', text: 'Privacy Policy' },
   { href: '/terms', text: 'Terms of Use' },
-  { href: '/cookies', text: 'Cookie Policy' },
+  // { href: '/cookies', text: 'Cookie Policy' },
   { href: '/affiliate', text: 'Affiliate program' },
 ];
 

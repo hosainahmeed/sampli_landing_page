@@ -8,9 +8,9 @@ function PageHeader({ title, subTitle }) {
           {title}
         </h1>
 
-        <h2 className="text-lg sm:text-xl md:text-2xl  md:text-left">
+        {subTitle && <h2 className="text-lg sm:text-xl md:text-2xl  md:text-left">
           {subTitle}
-        </h2>
+        </h2>}
       </div>
 
       <div className="gradient-ellipse-v2  w-full h-full z-[-1]"></div>

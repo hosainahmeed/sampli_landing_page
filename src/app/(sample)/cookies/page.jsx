@@ -6,9 +6,11 @@ function page() {
     <div>
       <PageHeader
         title={'Cookies Policy'}
-        subTitle={'Last updated:04/05/2022'}
+        // subTitle={'Last updated:04/05/2022'}
       />
-      <div className="area-xl"></div>
+      <div className="area-xl h-screen">
+        
+      </div>
     </div>
   );
 }

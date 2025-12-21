@@ -8,7 +8,7 @@ function page() {
     <div>
       <PageHeader
         title={'Privacy Policy'}
-        subTitle={'Last updated:04/05/2022'}
+        // subTitle={'Last updated:04/05/2022'}
       />
       <div className="area-xl">
         <PrivacyPolicy />

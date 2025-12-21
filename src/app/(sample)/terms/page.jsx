@@ -6,7 +6,7 @@ import React from 'react';
 function page() {
   return (
     <div>
-      <PageHeader title={'Terms of service'} subTitle={'Last updated:04/05/2022'} />
+      <PageHeader title={'Terms of service'}  />
       <div className="area-xl">
         <TermsAndConditions />
       </div>
